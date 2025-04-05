@@ -16,12 +16,12 @@ git clone https://github.com/your-username/timetable-app.git
 cd timetable-app
 
 2. Backend Setup (FastAPI)
-cd timetable-backend
-python -m venv env
-source env/bin/activate    # (or "env\Scripts\activate" on Windows)
-pip install -r requirements.txt
-uvicorn main:app --reload
-The backend will run at: http://127.0.0.1:8000
+- cd timetable-backend
+- python -m venv env
+- source env/bin/activate    # (or "env\Scripts\activate" on Windows)
+- pip install -r requirements.txt
+- uvicorn main:app --reload
+--> The backend will run at: http://127.0.0.1:8000
 
 3. Frontend Setup (Expo)
 In a new terminal:
