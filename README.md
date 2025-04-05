@@ -16,9 +16,6 @@ A React Native frontend built with Expo for managing university class timetables
 3. Start the app with `npm start`
 4. (Optional) Open with Expo Go app on your phone.
 
-## Screenshots
-
-*(Add screenshots here if you want!)*
 
 ## Backend
 
