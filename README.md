@@ -15,11 +15,7 @@ A React Native frontend built with Expo for managing university class timetables
 2. Run `npm install`
 3. Start the app with `npm start`
 4. (Optional) Open with Expo Go app on your phone.
-
-
-## Backend
-
-This frontend connects to [Timetable FastAPI Backend](https://github.com/yourusername/timetable-backend) (replace with your backend repo if you want).
+   
 
 ## Author
 
