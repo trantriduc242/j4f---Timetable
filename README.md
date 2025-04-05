@@ -26,4 +26,4 @@ This frontend connects to [Timetable FastAPI Backend](https://github.com/youruse
 
 ## Author
 
-- [Your Name](https://github.com/yourusername)
+- [Duc Tran](https://github.com/trantriduc242)
