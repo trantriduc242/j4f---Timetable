@@ -9,18 +9,6 @@ This is a **full stack Timetable Management App** built with:
 - Light and Dark Mode toggle
 - Backend connection with FastAPI
 - Mobile and web ready (Expo)
-  
-## 📦Project Structure
-Timetable-App/
-├── timetable-backend/   # FastAPI backend (Python)
-│    ├── main.py
-│    └── requirements.txt
-├── timetable-frontend/  # React Native frontend (Expo)
-│    ├── App.js
-│    ├── package.json
-│    └── ...
-└── README.md
-
 
 ## 🛠Installation
 1. Clone this repository:
