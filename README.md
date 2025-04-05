@@ -25,9 +25,9 @@ cd timetable-app
 
 3. Frontend Setup (Expo)
 In a new terminal:
-cd timetable-frontend
-npm install
-npm start
+- cd timetable-frontend
+- npm install
+- npm start
 --> Open in browser, Android, iOS, or scan QR Code using Expo Go.
    
 ## 🧩 Tech Stack
