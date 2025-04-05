@@ -1,21 +1,51 @@
-# 📅 Timetable App Frontend
+This is a **full stack Timetable Management App** built with:
 
-A React Native frontend built with Expo for managing university class timetables.
+- 🖥 **Frontend**: React Native + Expo
+- ⚙️ **Backend**: FastAPI (Python)
 
-## Features
+## 🔥Features
 - Add new timetable entries
 - Swipe to delete entries
 - Light and Dark Mode toggle
 - Backend connection with FastAPI
 - Mobile and web ready (Expo)
+  
+## 📦Project Structure
+Timetable-App/
+├── timetable-backend/   # FastAPI backend (Python)
+│    ├── main.py
+│    └── requirements.txt
+├── timetable-frontend/  # React Native frontend (Expo)
+│    ├── App.js
+│    ├── package.json
+│    └── ...
+└── README.md
 
-## Installation
 
-1. Clone this repo
-2. Run `npm install`
-3. Start the app with `npm start`
-4. (Optional) Open with Expo Go app on your phone.
+## 🛠Installation
+1. Clone this repository:
+git clone https://github.com/your-username/timetable-app.git
+cd timetable-app
+
+2. Backend Setup (FastAPI)
+cd timetable-backend
+python -m venv env
+source env/bin/activate    # (or "env\Scripts\activate" on Windows)
+pip install -r requirements.txt
+uvicorn main:app --reload
+The backend will run at: http://127.0.0.1:8000
+
+3. Frontend Setup (Expo)
+In a new terminal:
+cd timetable-frontend
+npm install
+npm start
+--> Open in browser, Android, iOS, or scan QR Code using Expo Go.
    
+## 🧩 Tech Stack
+- Frontend: React Native, Expo, Axios, React Native Gesture Handler
+- Backend: FastAPI, Python
+- Mobile Preview: Expo Go app (iOS & Android)
 
 ## Author
 
